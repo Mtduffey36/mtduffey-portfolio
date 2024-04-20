@@ -57,7 +57,8 @@ a:hover {
    filter: blur(1.5px);
 }
 
-.aside {
+.aside p {
+    display: block;
     font-size: 20px;
     padding: 20px;
     border-left: black solid;
@@ -66,8 +67,23 @@ a:hover {
 
 }
 
-main h2 {
-    margin-left: 75px;
-    margin-top: ;
+main div h2 {
+    display: block;
+    position: absolute;
+    left: 30px;
+    padding: 20px;
+    margin: 45px 0 0 0;
+    font-size: 200%;
+    
+}
+
+article h2 {
+    display: block;
+    position: absolute;
+    left: 30px;
+    padding: 20px;
+    margin: 45px 0 0 0;
+    font-size: 200%;
+    
 }
 
