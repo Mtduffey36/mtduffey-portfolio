@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <section class="base">
+    <section>
         <div class="header-row">
             <div id="header-row-one">
                 <div class="name">
@@ -20,9 +20,9 @@
                 </div>
                 <div class="navbar">
                     <nav>
-                        <a href="#">About Me</a>
-                        <a href="#">My Projects</a>
-                        <a href="#">Contact Me</a>
+                        <a href="#ref1">About Me</a>
+                        <a href="#ref2">My Projects</a>
+                        <a href="#ref3">Contact Me</a>
                     </nav>
                 </div>
             </div>
@@ -33,20 +33,20 @@
         </div>
         <div class="body-row" id="row-two">
             <div class="item" id="one">
-                <h2 class="left-side" >About me</h2>
+                <h2 id="ref1" class="left-side" >About me</h2>
             </div>
             <div id="two">
                 <p>Hello World! My name is Michael, but most people just call me Duffey. I am currently a Journeyman Wireman for the I.B.E.W. in Jackson, MS, which I have been doing for the past 12 years. Before that I was an aircraft mechanic for the Air National Guard in Mississippi, following which I worked for a private contractor doing similar work. Fast-forward a few years, I met and married my wife and 11 months later we have a brand new baby. It is for that reason I made the decision to learn web development, and hopefully more than just this as the years pass. Follow along with me on this journey of discovery, learning, and new exciting opportunities.</p>
             </div>
         </div>
         <div class="body-row" id="row-three">
-            <div class="item" id="three">
-                <h2 class="box">Projects</h2>
+            <div id="three">
+                <h2 id="ref2" class="box">Projects</h2>
             </div>
-            <div class="item" id="four">
-                <div class="project container">
+            <div id="four">
+                <div class="project">
                     <div class="project row-one">
-                        <div class="project-box prominent-project">
+                        <div class="project-box prominent-project" class="project-img-one">
                             <div class="project-title">
                                 <a href="#">Project One</a>
                             </div>
@@ -79,7 +79,7 @@
         </div>
         <div class="body-row" id="row-four">
             <div class="item" id="five">
-                <h2>Contact me</h2>
+                <h2 id="ref3">Contact me</h2>
             </div>
             <div class="item social" id="six">
                 <a id="social-email" href="mailto:michael.t.duffey@gmail.com">Email</a>
