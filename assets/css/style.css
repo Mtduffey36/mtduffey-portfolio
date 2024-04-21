@@ -5,7 +5,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-body {
+/* body {
     background-color: #919090;
     
 }
@@ -68,7 +68,7 @@ a:hover {
 
 }
 
-/* .main div h2 {
+.main div h2 {
     display: block;
     position: absolute;
     left: 30px;
@@ -76,7 +76,7 @@ a:hover {
     margin: 45px 0 0 0;
     font-size: 200%;
     
-} */
+}
 
 .box {
     position: absolute;
@@ -84,7 +84,7 @@ a:hover {
     height: 100px;
   }
 
-  #box-one {
+#box-one {
     display: flex;
     justify-content: center;
   }
@@ -125,4 +125,4 @@ a:hover {
     position: relative;
     align-items: center;
     left: 570px;
-}
+} */
