@@ -14,7 +14,11 @@ a {
     font-size: xx-large;
     padding: 1px;
     margin: 20px;
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0)
+}
+
+p {
+    word-break: initial;
 }
 
 a:hover {
@@ -39,7 +43,6 @@ a:hover {
     display: grid;
     grid-column: 1;
     margin: 20px;
-    background-color: blue;
 }
 
 .navbar {
@@ -90,16 +93,22 @@ a:hover {
     display: grid;
     align-content: flex-end;
     justify-content: flex-start;
+    background-image: url(../css/images/project1.PNG);
 }
 
 .project-title {
     text-decoration: none;
-    margin-bottom: 5px;
+    margin: 25px;
+    background-color: rgba(0, 128, 0, 0.548);
+    border-radius: 5px 5px 5px 5px;
 }
 
 .project .prominent-project {
     height: 600px;
     width: 90%;
+    background-image: url(../css/images/horiseon.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #one, #three, #five {
@@ -110,3 +119,4 @@ a:hover {
     padding-inline: 2px;
     justify-content: flex-end;
 }
+
