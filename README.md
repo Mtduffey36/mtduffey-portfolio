@@ -9,4 +9,4 @@ ___
 
 [def]: https://mtduffey36.github.io/mtduffey-portfolio/
 
-![example website](assets/images/portfolioss.png)
+![example website](/assets/images/portfolioss.PNG)
